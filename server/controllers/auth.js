@@ -27,6 +27,6 @@ export const signin = async (req, res, next) => {
             httpOnly: true
         }).status(200).json(others)
     } catch (error) {
-        next(error)
+        next(error)  
     }
 }
